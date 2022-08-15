@@ -1,0 +1,184 @@
+[
+  {
+    "workout_name": "flat barbell bench press",
+    "difficulty": "medium",
+    "main_muscles": "chest triceps",
+    "secondary_muscles": "shoulders",
+    "workout_category": "push"
+  },
+  {
+    "workout_name": "incline barbell bench press",
+    "difficulty": "medium",
+    "main_muscles": "chest triceps",
+    "secondary_muscles": "shoulders",
+    "workout_category": "push"
+  },
+  {
+    "workout_name": "flat dumbbell bench press",
+    "difficulty": "medium",
+    "main_muscles": "chest triceps",
+    "secondary_muscles": "shoulders",
+    "workout_category": "push"
+  },
+  {
+    "workout_name": "incline dumbbell bench press",
+    "difficulty": "medium",
+    "main_muscles": "chest triceps",
+    "secondary_muscles": "shoulders",
+    "workout_category": "push"
+  },
+  {
+    "workout_name": "overhead press",
+    "difficulty": "medium",
+    "main_muscles": "chest triceps",
+    "secondary_muscles": "shoulders",
+    "workout_category": "push"
+  },
+  {
+    "workout_name": "dips",
+    "difficulty": "medium",
+    "main_muscles": "chest triceps",
+    "secondary_muscles": "shoulders",
+    "workout_category": "push"
+  },
+  {
+    "workout_name": "cable flys",
+    "difficulty": "medium",
+    "main_muscles": "chest triceps",
+    "secondary_muscles": "shoulders",
+    "workout_category": "push"
+  },
+  {
+    "workout_name": "side lateral raise",
+    "difficulty": "medium",
+    "main_muscles": "chest triceps",
+    "secondary_muscles": "shoulders",
+    "workout_category": "push"
+  },
+  {
+    "workout_name": "triceps extension",
+    "difficulty": "medium",
+    "main_muscles": "chest triceps",
+    "secondary_muscles": "shoulders",
+    "workout_category": "push"
+  },
+  {
+    "workout_name": "deadlifts",
+    "difficulty": "medium",
+    "main_muscles": "chest triceps",
+    "secondary_muscles": "shoulders",
+    "workout_category": "pull"
+  },
+  {
+    "workout_name": "barbell row",
+    "difficulty": "medium",
+    "main_muscles": "chest triceps",
+    "secondary_muscles": "shoulders",
+    "workout_category": "pull"
+  },
+  {
+    "workout_name": "lat pulldowns",
+    "difficulty": "medium",
+    "main_muscles": "chest triceps",
+    "secondary_muscles": "shoulders",
+    "workout_category": "pull"
+  },
+  {
+    "workout_name": "pull-ups",
+    "difficulty": "medium",
+    "main_muscles": "chest triceps",
+    "secondary_muscles": "shoulders",
+    "workout_category": "pull"
+  },
+  {
+    "workout_name": "chin-ups",
+    "difficulty": "medium",
+    "main_muscles": "chest triceps",
+    "secondary_muscles": "shoulders",
+    "workout_category": "pull"
+  },
+  {
+    "workout_name": "t-bar row",
+    "difficulty": "medium",
+    "main_muscles": "chest triceps",
+    "secondary_muscles": "shoulders",
+    "workout_category": "pull"
+  },
+  {
+    "workout_name": "seated cable row",
+    "difficulty": "medium",
+    "main_muscles": "chest triceps",
+    "secondary_muscles": "shoulders",
+    "workout_category": "pull"
+  },
+  {
+    "workout_name": "barbell curls",
+    "difficulty": "medium",
+    "main_muscles": "chest triceps",
+    "secondary_muscles": "shoulders",
+    "workout_category": "pull"
+  },
+  {
+    "workout_name": "dumbbell curls",
+    "difficulty": "medium",
+    "main_muscles": "chest triceps",
+    "secondary_muscles": "shoulders",
+    "workout_category": "pull"
+  },
+  {
+    "workout_name": "hammer curls",
+    "difficulty": "medium",
+    "main_muscles": "chest triceps",
+    "secondary_muscles": "shoulders",
+    "workout_category": "pull"
+  },
+  {
+    "workout_name": "barbell squats",
+    "difficulty": "medium",
+    "main_muscles": "chest triceps",
+    "secondary_muscles": "shoulders",
+    "workout_category": "leg"
+  },
+  {
+    "workout_name": "bulgarian split squats",
+    "difficulty": "medium",
+    "main_muscles": "chest triceps",
+    "secondary_muscles": "shoulders",
+    "workout_category": "leg"
+  },
+  {
+    "workout_name": "leg press",
+    "difficulty": "medium",
+    "main_muscles": "chest triceps",
+    "secondary_muscles": "shoulders",
+    "workout_category": "leg"
+  },
+  {
+    "workout_name": "lunges",
+    "difficulty": "medium",
+    "main_muscles": "chest triceps",
+    "secondary_muscles": "shoulders",
+    "workout_category": "leg"
+  },
+  {
+    "workout_name": "leg curls",
+    "difficulty": "medium",
+    "main_muscles": "chest triceps",
+    "secondary_muscles": "shoulders",
+    "workout_category": "leg"
+  },
+  {
+    "workout_name": "leg extensions",
+    "difficulty": "medium",
+    "main_muscles": "chest triceps",
+    "secondary_muscles": "shoulders",
+    "workout_category": "leg"
+  },
+  {
+    "workout_name": "calf raises",
+    "difficulty": "medium",
+    "main_muscles": "chest triceps",
+    "secondary_muscles": "shoulders",
+    "workout_category": "leg"
+  }
+]
