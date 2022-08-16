@@ -1,184 +1,184 @@
 [
   {
     "workout_name": "flat barbell bench press",
-    "difficulty": "medium",
-    "main_muscles": "chest triceps",
-    "secondary_muscles": "shoulders",
-    "workout_category": "push"
+    "main_muscles": "pectoralis major, triceps brachii",
+    "secondary_muscles": "anterior deltoids",
+    "workout_category": "push",
+    "workout_gif": "https://thumbs.gfycat.com/CleverFocusedChupacabra-size_restricted.gif"
   },
   {
     "workout_name": "incline barbell bench press",
-    "difficulty": "medium",
-    "main_muscles": "chest triceps",
-    "secondary_muscles": "shoulders",
-    "workout_category": "push"
+    "main_muscles": "pectoralis major(clavicular head), triceps brachii",
+    "secondary_muscles": "anterior deltoids",
+    "workout_category": "push",
+    "workout_gif":"https://i0.wp.com/www.strengthlog.com/wp-content/uploads/2020/03/Incline-Bench-Press.gif?fit=600%2C600&ssl=1"
   },
   {
     "workout_name": "flat dumbbell bench press",
-    "difficulty": "medium",
-    "main_muscles": "chest triceps",
-    "secondary_muscles": "shoulders",
-    "workout_category": "push"
+    "main_muscles": "pectoralis major, triceps brachii",
+    "secondary_muscles": "anterior deltoids",
+    "workout_category": "push",
+    "workout_gif":"https://images.squarespace-cdn.com/content/v1/54f9e84de4b0d13f30bba4cb/1529964269063-JOLX6V32L34DXXEQFJ24/image-asset.gif"
   },
   {
     "workout_name": "incline dumbbell bench press",
-    "difficulty": "medium",
-    "main_muscles": "chest triceps",
-    "secondary_muscles": "shoulders",
-    "workout_category": "push"
+    "main_muscles": "pectoralis major(clavicular head), triceps brachii",
+    "secondary_muscles": "anterior deltoids",
+    "workout_category": "push",
+    "workout_gif":"https://thumbs.gfycat.com/DearestMammothDrafthorse-size_restricted.gif"
   },
   {
     "workout_name": "overhead press",
-    "difficulty": "medium",
-    "main_muscles": "chest triceps",
-    "secondary_muscles": "shoulders",
-    "workout_category": "push"
+    "main_muscles": "anterior deltoids, lateral deltoids, upper trapezius",
+    "secondary_muscles": "pectoralis major(clavicular head), triceps brachii",
+    "workout_category": "push",
+    "workout_gif":"https://hips.hearstapps.com/ame-prod-menshealth-assets.s3.amazonaws.com/main/assets/how-to-do-the-military-press.gif?resize=480:*"
   },
   {
     "workout_name": "dips",
-    "difficulty": "medium",
-    "main_muscles": "chest triceps",
-    "secondary_muscles": "shoulders",
-    "workout_category": "push"
+    "main_muscles": "pectoralis major(sternal head), triceps brachii",
+    "secondary_muscles": "anterior deltoids, rhomboids, latissimus dorsi",
+    "workout_category": "push",
+    "workout_gif":"https://hips.hearstapps.com/ame-prod-menshealth-assets.s3.amazonaws.com/main/assets/dips.gif?resize=480:*"
   },
   {
     "workout_name": "cable flys",
-    "difficulty": "medium",
-    "main_muscles": "chest triceps",
-    "secondary_muscles": "shoulders",
-    "workout_category": "push"
+    "main_muscles": "pectoralis major",
+    "secondary_muscles": "pectoralis minor, rhomboids, anterior deltoids, latissimus dorsi",
+    "workout_category": "push",
+    "workout_gif":"https://thumbs.gfycat.com/EasygoingKeyDwarfmongoose-size_restricted.gif"
   },
   {
     "workout_name": "side lateral raise",
-    "difficulty": "medium",
-    "main_muscles": "chest triceps",
-    "secondary_muscles": "shoulders",
+    "main_muscles": "anterior deltoids, lateral deltoids",
+    "secondary_muscles": "posterior deltoids, upper trapezius",
     "workout_category": "push"
+    "workout_gif":"https://hips.hearstapps.com/ame-prod-menshealth-assets.s3.amazonaws.com/main/assets/how-to-do-a-lateral-raise.gif?resize=480:*"
   },
   {
     "workout_name": "triceps extension",
-    "difficulty": "medium",
-    "main_muscles": "chest triceps",
-    "secondary_muscles": "shoulders",
-    "workout_category": "push"
+    "main_muscles": "triceps brachii",
+    "secondary_muscles": "latissimus dorsi, posterior deltoid",
+    "workout_category": "push",
+    "workout_gif":"https://i.pinimg.com/originals/7b/0b/c5/7b0bc5090d1c9610308b8419f74b7beb.gif"
   },
   {
     "workout_name": "deadlifts",
-    "difficulty": "medium",
-    "main_muscles": "chest triceps",
-    "secondary_muscles": "shoulders",
-    "workout_category": "pull"
+    "main_muscles": "gluteus maximus, hamstrings, latissimus dorsi",
+    "secondary_muscles": "quadraceps, erector spinae, trapezius, abdominals",
+    "workout_category": "pull",
+    "workout_gif":"https://media4.giphy.com/media/26BRHJV6j9HjNQRws/giphy.gif"
   },
   {
     "workout_name": "barbell row",
-    "difficulty": "medium",
     "main_muscles": "chest triceps",
     "secondary_muscles": "shoulders",
     "workout_category": "pull"
+    "workout_gif":
   },
   {
     "workout_name": "lat pulldowns",
-    "difficulty": "medium",
     "main_muscles": "chest triceps",
     "secondary_muscles": "shoulders",
     "workout_category": "pull"
+    "workout_gif":
   },
   {
     "workout_name": "pull-ups",
-    "difficulty": "medium",
     "main_muscles": "chest triceps",
     "secondary_muscles": "shoulders",
     "workout_category": "pull"
+    "workout_gif":
   },
   {
     "workout_name": "chin-ups",
-    "difficulty": "medium",
     "main_muscles": "chest triceps",
     "secondary_muscles": "shoulders",
     "workout_category": "pull"
+    "workout_gif":
   },
   {
     "workout_name": "t-bar row",
-    "difficulty": "medium",
     "main_muscles": "chest triceps",
     "secondary_muscles": "shoulders",
     "workout_category": "pull"
+    "workout_gif":
   },
   {
     "workout_name": "seated cable row",
-    "difficulty": "medium",
     "main_muscles": "chest triceps",
     "secondary_muscles": "shoulders",
     "workout_category": "pull"
+    "workout_gif":
   },
   {
     "workout_name": "barbell curls",
-    "difficulty": "medium",
     "main_muscles": "chest triceps",
     "secondary_muscles": "shoulders",
     "workout_category": "pull"
+    "workout_gif":
   },
   {
     "workout_name": "dumbbell curls",
-    "difficulty": "medium",
     "main_muscles": "chest triceps",
     "secondary_muscles": "shoulders",
     "workout_category": "pull"
+    "workout_gif":
   },
   {
     "workout_name": "hammer curls",
-    "difficulty": "medium",
     "main_muscles": "chest triceps",
     "secondary_muscles": "shoulders",
     "workout_category": "pull"
+    "workout_gif":
   },
   {
     "workout_name": "barbell squats",
-    "difficulty": "medium",
     "main_muscles": "chest triceps",
     "secondary_muscles": "shoulders",
     "workout_category": "leg"
+    "workout_gif":
   },
   {
     "workout_name": "bulgarian split squats",
-    "difficulty": "medium",
     "main_muscles": "chest triceps",
     "secondary_muscles": "shoulders",
     "workout_category": "leg"
+    "workout_gif":
   },
   {
     "workout_name": "leg press",
-    "difficulty": "medium",
     "main_muscles": "chest triceps",
     "secondary_muscles": "shoulders",
     "workout_category": "leg"
+    "workout_gif":
   },
   {
     "workout_name": "lunges",
-    "difficulty": "medium",
     "main_muscles": "chest triceps",
     "secondary_muscles": "shoulders",
     "workout_category": "leg"
+    "workout_gif":
   },
   {
     "workout_name": "leg curls",
-    "difficulty": "medium",
     "main_muscles": "chest triceps",
     "secondary_muscles": "shoulders",
     "workout_category": "leg"
+    "workout_gif":
   },
   {
     "workout_name": "leg extensions",
-    "difficulty": "medium",
     "main_muscles": "chest triceps",
     "secondary_muscles": "shoulders",
     "workout_category": "leg"
+    "workout_gif":
   },
   {
     "workout_name": "calf raises",
-    "difficulty": "medium",
     "main_muscles": "chest triceps",
     "secondary_muscles": "shoulders",
     "workout_category": "leg"
+    "workout_gif":
   }
 ]
