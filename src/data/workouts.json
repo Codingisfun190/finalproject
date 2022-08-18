@@ -1,184 +1,210 @@
 [
   {
-    "workout_name": "flat barbell bench press",
+    "workout_name": "Flat barbell bench press",
     "main_muscles": "pectoralis major, triceps brachii",
     "secondary_muscles": "anterior deltoids",
     "workout_category": "push",
-    "workout_gif": "https://thumbs.gfycat.com/CleverFocusedChupacabra-size_restricted.gif"
+    "workout_gif": "https://thumbs.gfycat.com/CleverFocusedChupacabra-size_restricted.gif",
+    "id": 1
   },
   {
-    "workout_name": "incline barbell bench press",
+    "workout_name": "Incline barbell bench press",
     "main_muscles": "pectoralis major(clavicular head), triceps brachii",
     "secondary_muscles": "anterior deltoids",
     "workout_category": "push",
-    "workout_gif":"https://i0.wp.com/www.strengthlog.com/wp-content/uploads/2020/03/Incline-Bench-Press.gif?fit=600%2C600&ssl=1"
+    "workout_gif": "https://i0.wp.com/www.strengthlog.com/wp-content/uploads/2020/03/Incline-Bench-Press.gif?fit=600%2C600&ssl=1",
+    "id": 2
   },
   {
-    "workout_name": "flat dumbbell bench press",
+    "workout_name": "Flat dumbbell bench press",
     "main_muscles": "pectoralis major, triceps brachii",
     "secondary_muscles": "anterior deltoids",
     "workout_category": "push",
-    "workout_gif":"https://images.squarespace-cdn.com/content/v1/54f9e84de4b0d13f30bba4cb/1529964269063-JOLX6V32L34DXXEQFJ24/image-asset.gif"
+    "workout_gif": "https://images.squarespace-cdn.com/content/v1/54f9e84de4b0d13f30bba4cb/1529964269063-JOLX6V32L34DXXEQFJ24/image-asset.gif",
+    "id": 3
   },
   {
-    "workout_name": "incline dumbbell bench press",
+    "workout_name": "Incline dumbbell bench press",
     "main_muscles": "pectoralis major(clavicular head), triceps brachii",
     "secondary_muscles": "anterior deltoids",
     "workout_category": "push",
-    "workout_gif":"https://thumbs.gfycat.com/DearestMammothDrafthorse-size_restricted.gif"
+    "workout_gif": "https://thumbs.gfycat.com/DearestMammothDrafthorse-size_restricted.gif",
+    "id": 4
   },
   {
-    "workout_name": "overhead press",
+    "workout_name": "Overhead press",
     "main_muscles": "anterior deltoids, lateral deltoids, upper trapezius",
     "secondary_muscles": "pectoralis major(clavicular head), triceps brachii",
     "workout_category": "push",
-    "workout_gif":"https://hips.hearstapps.com/ame-prod-menshealth-assets.s3.amazonaws.com/main/assets/how-to-do-the-military-press.gif?resize=480:*"
+    "workout_gif": "https://hips.hearstapps.com/ame-prod-menshealth-assets.s3.amazonaws.com/main/assets/how-to-do-the-military-press.gif?resize=480:*",
+    "id": 5
   },
   {
-    "workout_name": "dips",
+    "workout_name": "Dips",
     "main_muscles": "pectoralis major(sternal head), triceps brachii",
     "secondary_muscles": "anterior deltoids, rhomboids, latissimus dorsi",
     "workout_category": "push",
-    "workout_gif":"https://hips.hearstapps.com/ame-prod-menshealth-assets.s3.amazonaws.com/main/assets/dips.gif?resize=480:*"
+    "workout_gif": "https://hips.hearstapps.com/ame-prod-menshealth-assets.s3.amazonaws.com/main/assets/dips.gif?resize=480:*",
+    "id": 6
   },
   {
-    "workout_name": "cable flys",
+    "workout_name": "Cable flys",
     "main_muscles": "pectoralis major",
     "secondary_muscles": "pectoralis minor, rhomboids, anterior deltoids, latissimus dorsi",
     "workout_category": "push",
-    "workout_gif":"https://thumbs.gfycat.com/EasygoingKeyDwarfmongoose-size_restricted.gif"
+    "workout_gif": "https://thumbs.gfycat.com/EasygoingKeyDwarfmongoose-size_restricted.gif",
+    "id": 7
   },
   {
-    "workout_name": "side lateral raise",
+    "workout_name": "Side lateral raise",
     "main_muscles": "anterior deltoids, lateral deltoids",
     "secondary_muscles": "posterior deltoids, upper trapezius",
-    "workout_category": "push"
-    "workout_gif":"https://hips.hearstapps.com/ame-prod-menshealth-assets.s3.amazonaws.com/main/assets/how-to-do-a-lateral-raise.gif?resize=480:*"
+    "workout_category": "push",
+    "workout_gif": "https://hips.hearstapps.com/ame-prod-menshealth-assets.s3.amazonaws.com/main/assets/how-to-do-a-lateral-raise.gif?resize=480:*",
+    "id": 8
   },
   {
-    "workout_name": "triceps extension",
+    "workout_name": "Triceps extension",
     "main_muscles": "triceps brachii",
     "secondary_muscles": "latissimus dorsi, posterior deltoid",
     "workout_category": "push",
-    "workout_gif":"https://i.pinimg.com/originals/7b/0b/c5/7b0bc5090d1c9610308b8419f74b7beb.gif"
+    "workout_gif": "https://i.pinimg.com/originals/7b/0b/c5/7b0bc5090d1c9610308b8419f74b7beb.gif",
+    "id": 9
   },
   {
-    "workout_name": "deadlifts",
+    "workout_name": "Deadlifts",
     "main_muscles": "gluteus maximus, hamstrings, latissimus dorsi",
-    "secondary_muscles": "quadraceps, erector spinae, trapezius, abdominals",
+    "secondary_muscles": "quadriceps, erector spinae, trapezius, abdominals",
     "workout_category": "pull",
-    "workout_gif":"https://media4.giphy.com/media/26BRHJV6j9HjNQRws/giphy.gif"
+    "workout_gif": "https://media4.giphy.com/media/26BRHJV6j9HjNQRws/giphy.gif",
+    "id": 10
   },
   {
-    "workout_name": "barbell row",
-    "main_muscles": "chest triceps",
-    "secondary_muscles": "shoulders",
-    "workout_category": "pull"
-    "workout_gif":
+    "workout_name": "Barbell row",
+    "main_muscles": "latissimus dorsi, trapezius, posterior deltoids",
+    "secondary_muscles": "biceps, forearm flexors, rotator cuffs",
+    "workout_category": "pull",
+    "workout_gif": "https://i.makeagif.com/media/7-08-2018/Qgqtck.gif",
+    "id": 11
   },
   {
-    "workout_name": "lat pulldowns",
-    "main_muscles": "chest triceps",
-    "secondary_muscles": "shoulders",
-    "workout_category": "pull"
-    "workout_gif":
+    "workout_name": "Lat pulldowns",
+    "main_muscles": "lastissimus dorsi, teres major",
+    "secondary_muscles": "posterior deltoids, trapezius, rhomboids",
+    "workout_category": "pull",
+    "workout_gif": "https://i0.wp.com/post.healthline.com/wp-content/uploads/2022/02/400x400_How_To_Do_The_Lat_Pull_Down_Lat_Pull_Down.gif?h=840",
+    "id": 12
   },
   {
-    "workout_name": "pull-ups",
-    "main_muscles": "chest triceps",
-    "secondary_muscles": "shoulders",
-    "workout_category": "pull"
-    "workout_gif":
+    "workout_name": "Pull-ups",
+    "main_muscles": "latissimus dorsi, biceps",
+    "secondary_muscles": "forearms, trapezius, rhomboids",
+    "workout_category": "pull",
+    "workout_gif": "https://thumbs.gfycat.com/AppropriateOldfashionedKitfox-max-1mb.gif",
+    "id": 13
   },
   {
-    "workout_name": "chin-ups",
-    "main_muscles": "chest triceps",
-    "secondary_muscles": "shoulders",
-    "workout_category": "pull"
-    "workout_gif":
+    "workout_name": "Chin-ups",
+    "main_muscles": "biceps, latissimus dorsi",
+    "secondary_muscles": "forearms, trapezius, rhomboids",
+    "workout_category": "pull",
+    "workout_gif": "https://hips.hearstapps.com/hmg-prod/images/workouts/2016/03/chinup-1457101678.gif?crop=1xw:1xh;center,top&resize=480:*",
+    "id": 14
   },
   {
-    "workout_name": "t-bar row",
-    "main_muscles": "chest triceps",
-    "secondary_muscles": "shoulders",
-    "workout_category": "pull"
-    "workout_gif":
+    "workout_name": "T-bar row",
+    "main_muscles": "latissimus dorsi, rhomboids, trapezius, posterior deltoids",
+    "secondary_muscles": "erector spinae, biceps, hamstrings",
+    "workout_category": "pull",
+    "workout_gif": "https://thumbs.gfycat.com/HonestDeepBillygoat-size_restricted.gif",
+    "id": 15
   },
   {
-    "workout_name": "seated cable row",
-    "main_muscles": "chest triceps",
-    "secondary_muscles": "shoulders",
-    "workout_category": "pull"
-    "workout_gif":
+    "workout_name": "Seated cable row",
+    "main_muscles": "latissimus dorsi, rhomboids, trapezius",
+    "secondary_muscles": "posterior deltoids, biceps, erector spinae",
+    "workout_category": "pull",
+    "workout_gif": "https://jennywattfitness.files.wordpress.com/2017/01/ezgif-com-crop-71.gif?w=374&h=349",
+    "id": 16
   },
   {
-    "workout_name": "barbell curls",
-    "main_muscles": "chest triceps",
-    "secondary_muscles": "shoulders",
-    "workout_category": "pull"
-    "workout_gif":
+    "workout_name": "Barbell curls",
+    "main_muscles": "biceps, brachialis",
+    "secondary_muscles": "forearms",
+    "workout_category": "pull",
+    "workout_gif": "https://i0.wp.com/www.strengthlog.com/wp-content/uploads/2020/12/Barbell-biceps-curl.gif?fit=600%2C600&ssl=1",
+    "id": 17
   },
   {
-    "workout_name": "dumbbell curls",
-    "main_muscles": "chest triceps",
-    "secondary_muscles": "shoulders",
-    "workout_category": "pull"
-    "workout_gif":
+    "workout_name": "Dumbbell curls",
+    "main_muscles": "biceps, brachialis",
+    "secondary_muscles": "forearms",
+    "workout_category": "pull",
+    "workout_gif": "https://hips.hearstapps.com/ame-prod-menshealth-assets.s3.amazonaws.com/main/assets/bicep-curl.gif?resize=480:*",
+    "id": 18
   },
   {
-    "workout_name": "hammer curls",
-    "main_muscles": "chest triceps",
-    "secondary_muscles": "shoulders",
-    "workout_category": "pull"
-    "workout_gif":
+    "workout_name": "Hammer curls",
+    "main_muscles": "biceps, brachialis, brachioradialis",
+    "secondary_muscles": "forearms",
+    "workout_category": "pull",
+    "workout_gif": "https://www.strengthlog.com/wp-content/uploads/2020/02/Hammer-curl.gif",
+    "id": 19
   },
   {
-    "workout_name": "barbell squats",
-    "main_muscles": "chest triceps",
-    "secondary_muscles": "shoulders",
-    "workout_category": "leg"
-    "workout_gif":
+    "workout_name": "Barbell squats",
+    "main_muscles": "quadriceps, gluteus maximus, hamstrings",
+    "secondary_muscles": "calves, erector spinae",
+    "workout_category": "leg",
+    "workout_gif": "https://c.tenor.com/pANVg22G1JAAAAAC/workouts-squats.gif",
+    "id": 20
   },
   {
-    "workout_name": "bulgarian split squats",
-    "main_muscles": "chest triceps",
-    "secondary_muscles": "shoulders",
-    "workout_category": "leg"
-    "workout_gif":
+    "workout_name": "Bulgarian split squats",
+    "main_muscles": "quadriceps, hamstrings, gluteus maximus",
+    "secondary_muscles": "calves",
+    "workout_category": "leg",
+    "workout_gif": "https://media1.giphy.com/media/g0Kz180GdPYCsKqMyf/giphy.gif",
+    "id": 21
   },
   {
-    "workout_name": "leg press",
-    "main_muscles": "chest triceps",
-    "secondary_muscles": "shoulders",
-    "workout_category": "leg"
-    "workout_gif":
+    "workout_name": "Leg press",
+    "main_muscles": "quadriceps, gluteus maximus",
+    "secondary_muscles": "hamstrings",
+    "workout_category": "leg",
+    "workout_gif": "https://c.tenor.com/viwfOn4oRCcAAAAC/leg-press-workout.gif",
+    "id": 22
   },
   {
-    "workout_name": "lunges",
-    "main_muscles": "chest triceps",
-    "secondary_muscles": "shoulders",
-    "workout_category": "leg"
-    "workout_gif":
+    "workout_name": "Lunges",
+    "main_muscles": "quadriceps, gluteus maximus, adductors",
+    "secondary_muscles": "hamstrings, calves",
+    "workout_category": "leg",
+    "workout_gif": "https://c.tenor.com/fWiC9Ze5eUMAAAAC/lunges-exercise.gif",
+    "id": 23
   },
   {
-    "workout_name": "leg curls",
-    "main_muscles": "chest triceps",
-    "secondary_muscles": "shoulders",
-    "workout_category": "leg"
-    "workout_gif":
+    "workout_name": "Leg curls",
+    "main_muscles": "hamstrings",
+    "secondary_muscles": "calves",
+    "workout_category": "leg",
+    "workout_gif": "https://i0.wp.com/www.strengthlog.com/wp-content/uploads/2020/03/leg-curl-lying.gif?fit=600%2C600&ssl=1",
+    "id": 24
   },
   {
-    "workout_name": "leg extensions",
-    "main_muscles": "chest triceps",
-    "secondary_muscles": "shoulders",
-    "workout_category": "leg"
-    "workout_gif":
+    "workout_name": "Leg extensions",
+    "main_muscles": "quadriceps",
+    "secondary_muscles": "lower abdominis",
+    "workout_category": "leg",
+    "workout_gif": "https://www.tuffstuffitness.com/wp-content/uploads/2018/07/Bio-Arc-Leg-Extension.gif",
+    "id": 25
   },
   {
-    "workout_name": "calf raises",
-    "main_muscles": "chest triceps",
-    "secondary_muscles": "shoulders",
-    "workout_category": "leg"
-    "workout_gif":
+    "workout_name": "Calf raises",
+    "main_muscles": "calves",
+    "secondary_muscles": "peroneus fibularis brevis, peroneus fibularis longus",
+    "workout_category": "leg",
+    "workout_gif": "https://www.strengthlog.com/wp-content/uploads/2020/03/calf-raise-standing.gif",
+    "id": 26
   }
 ]
