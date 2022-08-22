@@ -114,7 +114,7 @@ function App() {
         <button onClick={() => toggleAbdominals()}>Abdominals</button>
       </div>
       <div>
-        {displayPush === true ? (
+        {displayPush && (
           <div>
             {pushArray.map((Workout) => (
               <div className="all-pull-workouts">
@@ -130,13 +130,11 @@ function App() {
               </div>
             ))}
           </div>
-        ) : (
-          <h3></h3>
         )}
       </div>
 
       <div>
-        {displayPull === true ? (
+        {displayPull && (
           <div>
             {pullArray.map((Workout) => (
               <div className="all-push-workouts">
@@ -151,13 +149,11 @@ function App() {
               </div>
             ))}
           </div>
-        ) : (
-          <h3></h3>
         )}
       </div>
 
       <div>
-        {displayLeg === true ? (
+        {displayLeg && (
           <div>
             {legArray.map((Workout) => (
               <div className="all-leg-workouts">
@@ -172,13 +168,11 @@ function App() {
               </div>
             ))}
           </div>
-        ) : (
-          <h3></h3>
         )}
       </div>
 
       <div>
-        {displayAbdominals === true ? (
+        {displayAbdominals && (
           <div>
             {abdominalsArray.map((Workout) => (
               <div className="all-abdominals-workouts">
@@ -193,8 +187,6 @@ function App() {
               </div>
             ))}
           </div>
-        ) : (
-          <h3></h3>
         )}
       </div>
       <footer className="footer-bar">
