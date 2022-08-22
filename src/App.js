@@ -61,9 +61,14 @@ function App() {
     setDisplayAbdominals(true)
   }
 
-  console.log(abdominalsArray)
+  // console.log(abdominalsArray)
   return (
     <div>
+      <nav className="nav-bar">
+        <a href="http://172.22.19.122:3000/">Home</a>
+        <a href="http://172.22.19.122:3000/">Sign Up!</a>
+        <button className="nav-button">Sign In!</button>
+      </nav>
       <h1>Push Pull Leg Workouts</h1>
       <p>
         Being physically active can improve your brain health, help manage
@@ -188,6 +193,9 @@ function App() {
           <h3></h3>
         )}
       </div>
+      <footer className="footer-bar">
+        <a href="www.gmail.com">Contact Me!</a>
+      </footer>
     </div>
 
     // <div>
