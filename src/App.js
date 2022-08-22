@@ -65,8 +65,12 @@ function App() {
   return (
     <div>
       <nav className="nav-bar">
-        <a href="http://172.22.19.122:3000/">Home</a>
-        <a href="http://172.22.19.122:3000/">Sign Up!</a>
+        <a className="nav-home" href="http://172.22.19.122:3000/">
+          Home
+        </a>
+        <a className="nav-button" href="http://172.22.19.122:3000/">
+          Sign Up!
+        </a>
         <button className="nav-button">Sign In!</button>
       </nav>
       <h1>Push Pull Leg Workouts</h1>
@@ -99,9 +103,9 @@ function App() {
         Leg workout on friday. This method is generally recommended for
         beginners to help minimize the chance for sustaining injuries. For more
         advanced lifters, doing a portion of the PPL workout everyday for 6 days
-        straight while resting on the 7th day. If going by the PPL workout, no
-        muscle group will be worked twice in a row, allowing for your body to
-        repair the muscle fibers that got damaged.
+        straight while resting on the 7th day can be beneficial. If going by the
+        PPL workout, no muscle group will be worked twice in a row, allowing for
+        your body to repair the muscle fibers that got damaged.
       </p>
       <div className="button-click">
         <button onClick={() => togglePush()}>Push</button>
@@ -194,7 +198,9 @@ function App() {
         )}
       </div>
       <footer className="footer-bar">
-        <a href="www.gmail.com">Contact Me!</a>
+        <a className="footer-href" href="www.gmail.com">
+          Contact Me!
+        </a>
       </footer>
     </div>
 

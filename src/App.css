@@ -6,14 +6,18 @@ body {
   display: flex;
   justify-content:flex-end;
   padding: 5px;
-  /* margin: 5px; */
 }
 
-a {
-  /* display: flex;
-  align-content: space-between; */
-  padding: 5px;
+.nav-home {
+  display: flex;
+  justify-content: flex-start;
+  padding: 5px
+}
 
+.nav-button {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
 }
 
 .button-click {
