@@ -2,8 +2,27 @@ body {
   text-align: center;
 }
 
+.nav-bar {
+  display: flex;
+  justify-content:flex-end;
+  padding: 5px;
+  /* margin: 5px; */
+}
+
+a {
+  /* display: flex;
+  align-content: space-between; */
+  padding: 5px;
+
+}
+
 .button-click {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+}
+
+.footer-href { 
+  display: flex;
   justify-content: center;
 }
