@@ -206,5 +206,37 @@
     "workout_category": "leg",
     "workout_gif": "https://www.strengthlog.com/wp-content/uploads/2020/03/calf-raise-standing.gif",
     "id": 26
+  },
+  {
+    "workout_name": "Planks",
+    "main_muscles": "rectus abdominis, transverse abdominis",
+    "secondary_muscles": "trapezius, rhomboids, pectoralis major",
+    "workout_category": "abdominals",
+    "workout_gif": "https://thumbs.gfycat.com/OpulentZanyBumblebee-size_restricted.gif",
+    "id": 27
+  },
+  {
+    "workout_name": "Leg raises",
+    "main_muscles": "rectus abdominis, transverse abdominis",
+    "secondary_muscles": "hamstrings, quadriceps, hip flexors",
+    "workout_category": "abdominals",
+    "workout_gif": "https://thumbs.gfycat.com/SaltyGiftedAmericancicada-max-1mb.gif",
+    "id": 28
+  },
+  {
+    "workout_name": "Russian twists",
+    "main_muscles": "obliques, rectus abdominis, transverse abdominis",
+    "secondary_muscles": "hip flexors, erector spinae, latissimus dorsi",
+    "workout_category": "abdominals",
+    "workout_gif": "https://thumbs.gfycat.com/FirstEvenFlea-size_restricted.gif",
+    "id": 29
+  },
+  {
+    "workout_name": "Cable crunches",
+    "main_muscles": "rectus abdominis, transverse abdominis",
+    "secondary_muscles": "obliques",
+    "workout_category": "abdominals",
+    "workout_gif": "https://thumbs.gfycat.com/GrizzledInsecureBaleenwhale-size_restricted.gif",
+    "id": 30
   }
 ]

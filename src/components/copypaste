@@ -1,0 +1,16 @@
+{/* {workouts.map((workout) => (
+          <div className="all-workouts">
+            <Workout
+              key={workout.id}
+              workout_name={workout.workout_name}
+              workout_gif={workout.workout_gif}
+              main_muscles={workout.main_muscles}
+              secondary_muscles={workout.secondary_muscles}
+              workout_category={workout.workout_category}
+            /> */}
+        {/* {workout.workout_category.map((push) => (
+              <Push push={push.workout_category} key={push.id} />
+            ))} */}
+        {/* </div>
+        ))} */}
+      {/* </div> */}
