@@ -5,7 +5,7 @@ import Push from './components/Push'
 import Pull from './components/Pull'
 import Leg from './components/Leg'
 import Abdominals from './components/Abdominals'
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 
 function App() {
   let pushArray = []
@@ -17,6 +17,14 @@ function App() {
   let [displayPull, setDisplayPull] = useState(false)
   let [displayLeg, setDisplayLeg] = useState(false)
   let [displayAbdominals, setDisplayAbdominals] = useState(false)
+
+  const ref = useRef(null)
+
+  // const pushWorkoutDiv = document.getElementsByClassName('all-push-workouts')
+
+  const handleScroll = () => {
+    ref.current.scrollIntoView({ block: 'nearest', behavior: 'smooth' })
+  }
 
   const createWorkoutCategories = () => {
     for (let i = 0; i < workouts.length; i++) {
@@ -41,24 +49,28 @@ function App() {
     setDisplayPull(false)
     setDisplayLeg(false)
     setDisplayAbdominals(false)
+    handleScroll()
   }
   function togglePull() {
     setDisplayPush(false)
     setDisplayPull(true)
     setDisplayLeg(false)
     setDisplayAbdominals(false)
+    handleScroll()
   }
   function toggleLeg() {
     setDisplayPush(false)
     setDisplayPull(false)
     setDisplayLeg(true)
     setDisplayAbdominals(false)
+    handleScroll()
   }
   function toggleAbdominals() {
     setDisplayPush(false)
     setDisplayPull(false)
     setDisplayLeg(false)
     setDisplayAbdominals(true)
+    handleScroll()
   }
 
   // console.log(abdominalsArray)
@@ -107,25 +119,33 @@ function App() {
         PPL workout, no muscle group will be worked twice in a row, allowing for
         your body to repair the muscle fibers that got damaged.
       </p>
-      <div className="button-click">
-        <button className="button" onClick={() => togglePush()}>
-          Push
-        </button>
-        <button className="button" onClick={() => togglePull()}>
-          Pull
-        </button>
-        <button className="button" onClick={() => toggleLeg()}>
-          Leg
-        </button>
-        <button className="button" onClick={() => toggleAbdominals()}>
-          Abdominals
-        </button>
+      <div id="button-click">
+        <a href="#button-click">
+          <button className="button" onClick={() => togglePush()}>
+            Push
+          </button>
+        </a>
+        <a href="#button-click">
+          <button className="button" onClick={() => togglePull()}>
+            Pull
+          </button>
+        </a>
+        <a href="#button-click">
+          <button className="button" onClick={() => toggleLeg()}>
+            Leg
+          </button>
+        </a>
+        <a href="#button-click">
+          <button className="button" onClick={() => toggleAbdominals()}>
+            Abdominals
+          </button>
+        </a>
       </div>
       <div>
         {displayPush && (
           <div>
             {pushArray.map((Workout) => (
-              <div className="all-pull-workouts">
+              <div ref={ref} id="all-push-workouts">
                 <Push
                   key={Workout.id}
                   workout_name={Workout.workout_name}
@@ -145,7 +165,7 @@ function App() {
         {displayPull && (
           <div>
             {pullArray.map((Workout) => (
-              <div className="all-push-workouts">
+              <div id="all-pull-workouts">
                 <Pull
                   key={Workout.id}
                   workout_name={Workout.workout_name}
@@ -164,7 +184,7 @@ function App() {
         {displayLeg && (
           <div>
             {legArray.map((Workout) => (
-              <div className="all-leg-workouts">
+              <div id="all-leg-workouts">
                 <Leg
                   key={Workout.id}
                   workout_name={Workout.workout_name}
@@ -183,7 +203,7 @@ function App() {
         {displayAbdominals && (
           <div>
             {abdominalsArray.map((Workout) => (
-              <div className="all-abdominals-workouts">
+              <div id="all-abdominals-workouts">
                 <Abdominals
                   key={Workout.id}
                   workout_name={Workout.workout_name}
