@@ -76,6 +76,8 @@ p {
   padding: 5px;
   margin: 5px;
   border-radius: 10px;
+  height: 40px;
+  width: 100px;
 }
 
 .button:hover {

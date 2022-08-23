@@ -5,7 +5,7 @@ import Push from './components/Push'
 import Pull from './components/Pull'
 import Leg from './components/Leg'
 import Abdominals from './components/Abdominals'
-import { useState, useRef } from 'react'
+import { useState } from 'react'
 
 function App() {
   let pushArray = []
@@ -17,14 +17,6 @@ function App() {
   let [displayPull, setDisplayPull] = useState(false)
   let [displayLeg, setDisplayLeg] = useState(false)
   let [displayAbdominals, setDisplayAbdominals] = useState(false)
-
-  const ref = useRef(null)
-
-  // const pushWorkoutDiv = document.getElementsByClassName('all-push-workouts')
-
-  const handleScroll = () => {
-    ref.current.scrollIntoView({ block: 'nearest', behavior: 'smooth' })
-  }
 
   const createWorkoutCategories = () => {
     for (let i = 0; i < workouts.length; i++) {
@@ -49,28 +41,24 @@ function App() {
     setDisplayPull(false)
     setDisplayLeg(false)
     setDisplayAbdominals(false)
-    handleScroll()
   }
   function togglePull() {
     setDisplayPush(false)
     setDisplayPull(true)
     setDisplayLeg(false)
     setDisplayAbdominals(false)
-    handleScroll()
   }
   function toggleLeg() {
     setDisplayPush(false)
     setDisplayPull(false)
     setDisplayLeg(true)
     setDisplayAbdominals(false)
-    handleScroll()
   }
   function toggleAbdominals() {
     setDisplayPush(false)
     setDisplayPull(false)
     setDisplayLeg(false)
     setDisplayAbdominals(true)
-    handleScroll()
   }
 
   // console.log(abdominalsArray)
@@ -145,7 +133,7 @@ function App() {
         {displayPush && (
           <div>
             {pushArray.map((Workout) => (
-              <div ref={ref} id="all-push-workouts">
+              <div id="all-push-workouts">
                 <Push
                   key={Workout.id}
                   workout_name={Workout.workout_name}
