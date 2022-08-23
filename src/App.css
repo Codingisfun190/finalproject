@@ -26,6 +26,17 @@ body {
   justify-content: flex-end;
   padding: 5px;
   background-color: rgb(93, 122, 250);
+  border-radius: 6px;
+}
+
+.nav-button:hover {
+  background-color: rgb(255, 92, 80);
+}
+
+.nav-button:active {
+  background-color: rgb(93, 122, 250);
+  box-shadow: 0 4px #666;
+  transform: translateY(4px);
 }
 
 p {
