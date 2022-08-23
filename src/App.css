@@ -1,5 +1,6 @@
 body {
   text-align: center;
+  background-color: rgb(245, 247, 225)
 }
 
 .nav-bar {
@@ -14,10 +15,25 @@ body {
   padding: 5px
 }
 
+.nav-signup {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
+}
+
 .nav-button {
   display: flex;
   justify-content: flex-end;
   padding: 5px;
+  background-color: rgb(93, 122, 250);
+}
+
+p {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.all-pull-workouts {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .button-click {
@@ -26,7 +42,25 @@ body {
   justify-content: center;
 }
 
+.button {
+  background-color:rgb(72, 241, 199);
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.button:hover {
+  background-color: rgb(250, 84, 195);
+}
+
+.button:active {
+  background-color: rgb(72, 241, 199);
+  box-shadow: 0 4px #666;
+  transform: translateY(4px);
+}
+
 .footer-href { 
   display: flex;
   justify-content: center;
+  padding: 10px;
 }

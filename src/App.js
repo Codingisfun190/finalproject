@@ -68,7 +68,7 @@ function App() {
         <a className="nav-home" href="http://172.22.19.122:3000/">
           Home
         </a>
-        <a className="nav-button" href="http://172.22.19.122:3000/">
+        <a className="nav-signup" href="http://172.22.19.122:3000/">
           Sign Up!
         </a>
         <button className="nav-button">Sign In!</button>
@@ -108,10 +108,18 @@ function App() {
         your body to repair the muscle fibers that got damaged.
       </p>
       <div className="button-click">
-        <button onClick={() => togglePush()}>Push</button>
-        <button onClick={() => togglePull()}>Pull</button>
-        <button onClick={() => toggleLeg()}>Leg</button>
-        <button onClick={() => toggleAbdominals()}>Abdominals</button>
+        <button className="button" onClick={() => togglePush()}>
+          Push
+        </button>
+        <button className="button" onClick={() => togglePull()}>
+          Pull
+        </button>
+        <button className="button" onClick={() => toggleLeg()}>
+          Leg
+        </button>
+        <button className="button" onClick={() => toggleAbdominals()}>
+          Abdominals
+        </button>
       </div>
       <div>
         {displayPush && (
