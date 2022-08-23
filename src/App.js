@@ -73,7 +73,7 @@ function App() {
         </a>
         <button className="nav-button">Sign In!</button>
       </nav>
-      <h1>Push Pull Leg Workouts</h1>
+      <h1>Push Pull Leg Workout Routine</h1>
       <p>
         Being physically active can improve your brain health, help manage
         weight, reduce the risk of disease, strengthen bone and muscle mass, and
