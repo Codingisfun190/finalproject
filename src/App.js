@@ -140,7 +140,6 @@ function App() {
                   workout_gif={Workout.workout_gif}
                   main_muscles={Workout.main_muscles}
                   secondary_muscles={Workout.secondary_muscles}
-                  workout_category={Workout.workout_category}
                 />
                 <br></br>
               </div>
@@ -160,7 +159,6 @@ function App() {
                   workout_gif={Workout.workout_gif}
                   main_muscles={Workout.main_muscles}
                   secondary_muscles={Workout.secondary_muscles}
-                  workout_category={Workout.workout_category}
                 />
               </div>
             ))}
@@ -179,7 +177,6 @@ function App() {
                   workout_gif={Workout.workout_gif}
                   main_muscles={Workout.main_muscles}
                   secondary_muscles={Workout.secondary_muscles}
-                  workout_category={Workout.workout_category}
                 />
               </div>
             ))}
@@ -198,7 +195,6 @@ function App() {
                   workout_gif={Workout.workout_gif}
                   main_muscles={Workout.main_muscles}
                   secondary_muscles={Workout.secondary_muscles}
-                  workout_category={Workout.workout_category}
                 />
               </div>
             ))}
