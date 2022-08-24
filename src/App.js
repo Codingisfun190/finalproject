@@ -88,7 +88,7 @@ function App() {
           Having a set workout routine has many benefits to your overall health.
           This website will list some Push Pull Leg workouts, otherwise known as
           PPL workouts that you can incorporate into your routine. Included will
-          be abdominal workouts you can incororate into your other workouts.{' '}
+          be abdominal workouts you can incororate into your other workouts.
         </p>
         <p>
           It is always best practice to make sure to give your body a chance to
