@@ -46,6 +46,10 @@ p {
   margin: 10px;
 }
 
+h1 {
+  padding-top: 30px
+}
+
 *{
   scroll-behavior: smooth;
 }
@@ -95,4 +99,6 @@ p {
   display: flex;
   justify-content: center;
   padding: 10px;
+  margin: 10px;
+  background-color: rgb(167, 250, 229);
 }
