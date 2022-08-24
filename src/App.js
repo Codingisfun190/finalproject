@@ -210,26 +210,7 @@ function App() {
         </a>
       </footer>
     </div>
-
-    // <div>
-    //   <h1>Push Pull Leg Workouts</h1>
-    //   {workouts.map((Workout) => (
-    //     <div className="all-pull-workouts">
-    //       <Push
-    //         key={Workout.workout_id}
-    //         workout_name={Workout.workout_name}
-    //         workout_gif={Workout.workout_gif}
-    //         main_muscles={Workout.main_muscles}
-    //         secondary_muscles={Workout.secondary_muscles}
-    //         workout_category={Workout.workout_category}
-    //       />
-    //     </div>
-    //   ))}
-    // </div>
   )
 }
 
 export default App
-
-// push pull leg components
-// map through them respectively
