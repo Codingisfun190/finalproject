@@ -13,13 +13,16 @@ body {
 .nav-home {
   display: flex;
   justify-content: flex-end;
-  padding: 5px
+  padding: 5px;
+  padding-right: 20px;
+  
 }
 
 .nav-signup {
   display: flex;
   justify-content: flex-end;
   padding: 5px;
+  padding-right: 25px;
 }
 
 .nav-button {
