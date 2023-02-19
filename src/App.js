@@ -1,5 +1,4 @@
 import './App.css'
-// import Workout from './components/Workout'
 import workouts from './data/workouts.json'
 import Push from './components/Push'
 import Pull from './components/Pull'
@@ -81,7 +80,7 @@ function App() {
           and improve your ability to do everyday activities. According to the
           CDC, living a seditary lifestyle has profound negative impacts on your
           health. Adults who sit less and do any amount of moderate to vigorous
-          physical activity gain some health benefits. Only a few lifestyle
+          physical activity gain many health benefits. Only a few lifestyle
           choices have as large an impact on your health as phyical activity.
         </p>
         <p>
